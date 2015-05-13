@@ -1,0 +1,18 @@
+.containter {}
+
+.container h1 {
+	font-family: league Script;
+	font-weight: 400;
+	font-size: 48px;
+	text-transform: lowercase;
+	text-align: center;
+}
+
+.container p {
+	font-family: BenchNine;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+	margin: 10px 0;
+}
