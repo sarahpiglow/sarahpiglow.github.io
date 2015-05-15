@@ -8,6 +8,7 @@ body {
 	background-color: #fff;
 }
 
+
 .bunny-ears {
   display: block;
   width: 400px;
@@ -37,7 +38,7 @@ body {
   z-index: 4;
   position: absolute;
   bottom: 45px;
-  left: 124px;
+  left: 130px;
   width: 40px;
   height: 65px;
   border: 2px solid white;
@@ -49,10 +50,10 @@ body {
 .pad-3 {
   z-index: 3;
   position: absolute;
-  bottom: 105px;
+  bottom: 103px;
   left: 142px;
-  width: 12px;
-  height: 22px;
+  width: 18px;
+  height: 30px;
   border: 2px solid white;
   background: #666666;
   border-radius: 100% 37% 100% 0% / 100% 37% 100% 75%;
@@ -62,7 +63,7 @@ body {
 .pad-4 {
   z-index: 2;
   position: absolute;
-  bottom: 60px;
+  bottom: 55px;
   left: 208px;
   width: 52px;
   height: 80px;
@@ -75,23 +76,23 @@ body {
 .pad-5 {
   z-index: 1;
   position: absolute;
-  bottom: 120px;
-  left: 191px;
-  height: 39px;
-  width: 24px;
+  bottom: 114px;
+  left: 186px;
+  height: 41px;
+  width: 28px;
   border: 2px solid white;
   background: #555555;
 border-radius: 83% 100% 0% 100% / 88% 100% 0% 100%;
-  transform: rotate(-5deg);
+  transform: rotate(-11deg);
 }
 
 .pad-6 {
   z-index: 1;
   position: absolute;
-  bottom: 120px;
-  left: 258px;
-  height: 50px;
-  width: 15px;
+  bottom: 110px;
+  left: 255px;
+  height: 60px;
+  width: 18px;
   border: 2px solid white;
   background: #333333;
   border-radius: 100% 100% 100% 0% / 68% 100% 100% 0%;
@@ -102,9 +103,9 @@ border-radius: 83% 100% 0% 100% / 88% 100% 0% 100%;
   z-index: 5;
   position: absolute;
   bottom: 96px;
-  left: 112px;
-  width: 8px;
-  height: 8px;
+  left: 120px;
+  width: 10px;
+  height: 10px;
   border: 2px solid white;
   border-radius: 50%;
   background: #FFD012;
@@ -113,10 +114,10 @@ border-radius: 83% 100% 0% 100% / 88% 100% 0% 100%;
 .bud-2 {
   z-index: 5;
   position: absolute;
-  bottom: 170px;
-  left: 265px;
-  width: 8px;
-  height: 8px;
+  bottom: 165px;
+  left: 258px;
+  width: 10px;
+  height: 10px;
   border: 2px solid white;
   border-radius: 50%;
   background: #FFD012;
@@ -126,9 +127,9 @@ border-radius: 83% 100% 0% 100% / 88% 100% 0% 100%;
   z-index: 5;
   position: absolute;
   bottom: 160px;
-  left: 274px;
-  width: 8px;
-  height: 8px;
+  left: 271px;
+  width: 10px;
+  height: 10px;
   border: 2px solid white;
   border-radius: 50%;
   background: #FFB029;
