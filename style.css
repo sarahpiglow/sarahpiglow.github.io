@@ -1,7 +1,159 @@
-.containter {}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+}
+
+.bunny-ears {
+  display: block;
+  width: 400px;
+  height: 250px;
+  border-bottom: 1px solid black;
+  margin: 0px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.pad-1 {
+  z-index: 5;
+  margin: auto;
+  position: absolute;
+  left:0;
+  right: 0;
+  bottom: -30px;
+  width: 77px;
+  height: 100px;
+  border: 2px solid white;
+  background: #000000;
+  border-radius: 63% 100% 76% 63% / 100% 100% 62% 70%;
+  transform: rotate(7deg);
+}
+
+.pad-2 {
+  z-index: 4;
+  position: absolute;
+  bottom: 45px;
+  left: 124px;
+  width: 40px;
+  height: 65px;
+  border: 2px solid white;
+  background: #222222;
+  border-radius: 44% 100% 0% 100% / 38% 100% 18% 100%;
+  transform: rotate(-16deg);
+}
+
+.pad-3 {
+  z-index: 3;
+  position: absolute;
+  bottom: 105px;
+  left: 142px;
+  width: 12px;
+  height: 22px;
+  border: 2px solid white;
+  background: #666666;
+  border-radius: 100% 37% 100% 0% / 100% 37% 100% 75%;
+  transform: rotate(-10deg);
+}
+
+.pad-4 {
+  z-index: 2;
+  position: absolute;
+  bottom: 60px;
+  left: 208px;
+  width: 52px;
+  height: 80px;
+  border: 2px solid white;
+  background: black;
+  border-radius: 100% 87% 100% 32% / 100% 80% 100% 61%;
+  transform: rotate(-12deg);
+}
+
+.pad-5 {
+  z-index: 1;
+  position: absolute;
+  bottom: 120px;
+  left: 191px;
+  height: 39px;
+  width: 24px;
+  border: 2px solid white;
+  background: #555555;
+border-radius: 83% 100% 0% 100% / 88% 100% 0% 100%;
+  transform: rotate(-5deg);
+}
+
+.pad-6 {
+  z-index: 1;
+  position: absolute;
+  bottom: 120px;
+  left: 258px;
+  height: 50px;
+  width: 15px;
+  border: 2px solid white;
+  background: #333333;
+  border-radius: 100% 100% 100% 0% / 68% 100% 100% 0%;
+  transform: rotate(10deg);
+}
+
+.bud-1 {
+  z-index: 5;
+  position: absolute;
+  bottom: 96px;
+  left: 112px;
+  width: 8px;
+  height: 8px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: #FFD012;
+}
+
+.bud-2 {
+  z-index: 5;
+  position: absolute;
+  bottom: 170px;
+  left: 265px;
+  width: 8px;
+  height: 8px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: #FFD012;
+}
+
+.bud-3 {
+  z-index: 5;
+  position: absolute;
+  bottom: 160px;
+  left: 274px;
+  width: 8px;
+  height: 8px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: #FFB029;
+}
+
+.glochids {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAIElEQVQYV2P8DwSMQMBAABBUANM/2BRi8+BgcyO2sAcAQtAIC/WZRm8AAAAASUVORK5CYII=) repeat;
+  width: 400px;
+  height: 250px;
+}
+
+.container {
+	border-bottom: 1px solid black;
+	padding-bottom: 32px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 .container h1 {
 	font-family: league Script;
+	color: #000;
 	font-weight: 400;
 	font-size: 48px;
 	text-transform: lowercase;
@@ -10,6 +162,7 @@
 
 .container p {
 	font-family: BenchNine;
+	color: #000;
 	font-size: 18px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
