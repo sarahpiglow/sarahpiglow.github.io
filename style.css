@@ -170,3 +170,23 @@ border-radius: 83% 100% 0% 100% / 88% 100% 0% 100%;
 	text-align: center;
 	margin: 10px 0;
 }
+
+
+.social-icons ul {
+	text-align: center;
+	width: 100%;
+	padding: 0;
+}
+.social-icons li {
+	font-size: 21px;
+	display: inline-block;
+	letter-spacing: 8px;
+}
+
+.social-icons li a {
+	color: black;
+}
+
+.social-icons li a:hover {
+	color: #666;
+}
