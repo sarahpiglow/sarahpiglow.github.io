@@ -202,7 +202,7 @@ border-radius: 83% 100% 0% 100% / 88% 100% 0% 100%;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   html {
     font-size: 18px;
   }
