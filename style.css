@@ -204,6 +204,7 @@ border-radius: 83% 100% 0% 100% / 88% 100% 0% 100%;
 
 @media (max-width: 320px) {
   html {
+    width: 100%;
     overflow: hidden;
     font-size: 18px;
   }
