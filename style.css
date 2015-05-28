@@ -197,19 +197,16 @@ border-radius: 83% 100% 0% 100% / 88% 100% 0% 100%;
 
 /* BREAK POINTS FOR MOBILE DEVICES */
 @media (max-width: 768px) {
-  html {
-    font-size: 12px;
-  }
   .social-icons li {
     letter-spacing: 16px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   html {
-    font-size: 32px;
+    font-size: 18px;
   }
   .social-icons li {
-    letter-spacing: 16px;
+    letter-spacing: 20px;
   }
 }
